@@ -18,7 +18,9 @@ body {
 .grey-color {
   color: #8f8f8f;
 }
-
+.word {
+  word-break: break-word;
+}
 /* -----------------------------------------Navbar--------------------------------------------------- */
 
 .navigation {
@@ -51,13 +53,14 @@ body {
 .download {
   margin: 5% 3% 5% 0;
 }
-
 @media (max-width: 770px) {
   .title-img {
     position: relative;
     margin-top: 15%;
     transform: rotate(0);
     padding-left: 0rem;
+    height: 100%;
+    width: 70%;
   }
 
   #title {
