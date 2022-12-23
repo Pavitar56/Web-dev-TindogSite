@@ -1,0 +1,161 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+.med-heading {
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.white-color {
+  color: #fff;
+}
+.grey-color {
+  color: #8f8f8f;
+}
+
+/* -----------------------------------------Navbar--------------------------------------------------- */
+
+.navigation {
+  padding: 0 0 4.5rem 0;
+}
+
+.logo {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.nav-link {
+  margin: 0 1rem 0 1rem;
+}
+
+/* --------------------------------------------------title-section------------------------------------- */
+#title {
+  background-color: #ff4c68;
+  padding: 5% 20% 8% 20%;
+}
+
+.title-img {
+  height: 70%;
+  transform: rotate(20deg);
+  position: absolute;
+  padding-left: 5rem;
+}
+.correction-padding {
+  padding-left: 0;
+}
+.download {
+  margin: 5% 3% 5% 0;
+}
+
+@media (max-width: 770px) {
+  .title-img {
+    position: relative;
+    margin-top: 15%;
+    transform: rotate(0);
+    padding-left: 0rem;
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+/* ----------------------------------------------------features-section---------------------------------------- */
+#features {
+  background-color: #fff;
+  text-align: center;
+  padding: 10% 10% 10% 10%;
+  position: relative;
+  z-index: 1;
+}
+
+.custom-icon-color {
+  color: #ef8172;
+}
+.custom-icon-color:hover {
+  color: #ff4c68;
+}
+.custom-col-padding {
+  padding: 10% 5% 10% 5%;
+}
+/* ---------------------------------------------------------testimonial-section---------------------------------------- */
+#testimonials {
+  background-color: #ff597b;
+  text-align: center;
+}
+.testimonial-img {
+  border-radius: 50%;
+  height: 15%;
+  width: 15%;
+  margin-right: 30px;
+}
+.carousel-inner {
+  padding: 10% 15% 5% 15%;
+}
+
+/* --------------------------------------------------Press--------------------------------------------------------------- */
+#press {
+  text-align: center;
+  background-color: #ff597b;
+  /* padding: 5%; */
+}
+
+.sponsor-img {
+  margin: 2.5%;
+  width: 15%;
+}
+/* -------------------------------------------------------Pricing-section----------------------------------------------------- */
+#pricing {
+  text-align: center;
+  background-color: #fff;
+  padding: 10% 10% 10% 10%;
+  font-weight: bold;
+}
+.card-header {
+  font-size: 3rem;
+}
+
+.card-title {
+  font-size: 2rem;
+  line-height: 2.5rem;
+  font-weight: bold;
+}
+.pricing-title {
+  margin-bottom: 9%;
+}
+.card {
+  margin: 4%;
+}
+.pricing-Head {
+  font-size: 3rem;
+}
+.card-text {
+  color: #8f8f8f;
+  font-weight: normal;
+}
+/* -----------------------------------------------------cta-section---------------------------------------- */
+#cta {
+  background-color: #ff4c68;
+  padding: 10% 10% 5% 10%;
+  text-align: center;
+
+  color: #fff;
+}
+.cta-text {
+  font-size: 4rem;
+  font-weight: bold;
+}
+/* ---------------------------------------------------------footer-section------------------------------------------ */
+#footer {
+  text-align: center;
+  padding: 5%;
+  background-color: #fff;
+}
+.footer-icons {
+  margin: 1%;
+}
